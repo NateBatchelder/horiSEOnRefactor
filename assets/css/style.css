@@ -1,0 +1,153 @@
+/* wildcard selector for all elements in HTML file as stylized by CSS */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* background color of document */
+body {
+    background-color: #d9dcd6;
+}
+
+/* spacing, font, and color for header */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* creates rules for how the company name apears on the header */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* changes the color of 'seo' in hor'seo'n to emphaise company link to Search Engline Optimization */
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* creates spacing, positioning, font, and size */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* removes bullet points from the list */
+header nav ul {
+    list-style-type: none;
+}
+
+/* formatting for nav in header */
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* color of text for anchor elements in nav */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* font size or <p></p> elements */
+p {
+    font-size: 16px;
+}
+
+/* landing image on page */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* positioning for articles text and image */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* positioning for articles text and image */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* establishes width, rules for font placment, and margins for the primary content section of the site */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* positioning, sizing, font, and color for aside */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* margin and color styling for aside */
+.benefits section {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* margin and text alignment for headings in the aside */
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* rules for the images in the aside */
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* spacing, font, and colors for the articles in the main section */
+.content section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* images for main section max height */
+.content img {
+    max-height: 200px;
+}
+
+/* spacing around h2 and font for h2 text */
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* padding, font, and text alignment for the the page */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
